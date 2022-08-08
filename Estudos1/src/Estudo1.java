@@ -64,7 +64,39 @@ public class Estudo1 {
 		System.out.println("Soma " + soma);
 		System.out.println("Media " + media);
 		
+		/**
+		 * Casting
+		 */
 		
+		double aa = 1;
+		
+		// Pq não compila? Entrar com exemplos!
+		//int bb = 1.1;
+		
+		double a3 = 3.14;
+		int b2 = (int)a3;
+		
+		System.out.println(b2);
+		
+		// Note o valor de b2!
+		
+		long l1 = 10000002;
+		int i1 = (int) l1;
+		System.out.println(i1);
+		
+		// não compila
+		//float x = 0.0;
+		
+		float x = 0.0f;
+		
+		//outros casos
+		
+		double d = 5;
+		float f = 3;
+		
+		float f2 = (float) (f + d);
+		// ou
+		f2 = f + (float)d;
 		
 	}
 
