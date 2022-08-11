@@ -4,12 +4,12 @@ public class AcessoBanco {
 	
 	private static AcessoBanco instanceBd;
 	
-	private AcessoBanco() {
+	private AcessoBanco() { 
 		
 		final String URL = "198.155.0.0.0.0";
 		final String password = "123";
 		
-	}
+	} 
 	
 	public static synchronized AcessoBanco getInstance() {
 		
@@ -17,7 +17,8 @@ public class AcessoBanco {
 			instanceBd = new AcessoBanco();
 			System.out.println("Vamos Lá ao Banco de dados!!!");
 			//syso - atalho!
-			System.out.println();
+			
+			System.out.println("Singleton Baby");
 		}
 		
 		return instanceBd;
