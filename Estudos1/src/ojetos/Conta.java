@@ -16,6 +16,17 @@ public class Conta {
 		saldo = getSaldo() + valor;
 	}
 	
+	public boolean podeSacar(double valor) {
+		
+		if(this.saldo < valor) {
+			return false;
+		}else {
+			this.saldo = this.saldo - valor;
+			return true;
+		}
+		
+	}
+
 	
 	
 	public Integer getNumeroConta() {
