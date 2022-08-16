@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"singletonExemple","c":"AcessoBanco","l":"getInstance()"}];updateSearchResults();
