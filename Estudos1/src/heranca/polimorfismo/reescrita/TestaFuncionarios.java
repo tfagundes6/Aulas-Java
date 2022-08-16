@@ -15,6 +15,7 @@ public class TestaFuncionarios {
 		
 		
 		gerente.autenticaSenha(12345);
+		
 		System.out.println(gerente.getNome());
 		System.out.println("Salario Gerente " + gerente.bonificacao());
 		System.out.println("Salario Funcionario " + funcionario.bonificacao());

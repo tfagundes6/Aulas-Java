@@ -8,7 +8,7 @@ public class Funcionario {
 	
 	Funcionario() {}
 	
-	
+
 	public double bonificacao() {
 		return this.getSalario() + this.getSalario() * 0.10;
 	}

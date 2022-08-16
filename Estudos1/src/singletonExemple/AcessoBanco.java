@@ -15,7 +15,7 @@ public class AcessoBanco {
 		
 		if(instanceBd == null) {
 			instanceBd = new AcessoBanco();
-			System.out.println("Vamos Lá ao Banco de dados!!!");
+			System.out.println("Vamos ao Banco de dados!!!");
 			//syso - atalho!
 			
 			System.out.println("Singleton Baby");
